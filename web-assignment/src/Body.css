@@ -1,0 +1,17 @@
+.topbar{
+    padding: 20px;
+    justify-content: space-between;
+    justify-self: auto;
+    display: flex;
+    margin: 0 10px 10px 0 ;
+}
+
+.recommendation{
+    grid-row: inherit;
+    padding: 2rem;
+    border-radius: 10px;
+    display:inline-block;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    flex-direction: column;
+}

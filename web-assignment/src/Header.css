@@ -1,0 +1,12 @@
+.bg-body-tertiary .logo{
+    max-width: 40px;
+    
+}
+
+.bg-body-tertiary .me-auto .account{
+    float: right;
+}
+
+#account{
+    float: left;
+}
