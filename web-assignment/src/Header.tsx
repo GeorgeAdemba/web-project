@@ -1,31 +1,3 @@
-// import Logo from "./assets/Logo.png";
-// import "./Header.css"
-// function Header() {
-//   return (
-//     <header className='header-items'>
-//       <ul>
-//         <a className="logo" href="#">
-//           <img src={Logo} alt="logo" />
-//         </a>
-//       </ul>
-//       <ul>
-//         <input type="text" aria-label="Search" id="search" />
-//       </ul>
-//       <ul>
-//         <a href="#">Home</a>
-//       </ul>
-//       <ul>
-//         <a href="#">Account</a>
-//       </ul>
-//       <ul>
-//         <a href="#">About</a>
-//       </ul>
-//     </header>
-//   );
-// }
-
-// export default Header;
-
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -48,15 +20,15 @@ function BasicExample() {
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown title="Search by..." id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Genre</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Author
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Price</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                All books(Library)
               </NavDropdown.Item>
             </NavDropdown>
             <Form className="d-flex">
@@ -68,8 +40,8 @@ function BasicExample() {
               />
               <Button variant="outline-success">Search</Button>
             </Form>
-          <Button id="account">Account</Button>
           </Nav>
+            <Button id="account">Account</Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -7,3 +7,13 @@
     justify-content: space-between;
     flex-direction: column;
 }
+
+Card{
+    grid-row: inherit;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    flex-direction: column;
+}
