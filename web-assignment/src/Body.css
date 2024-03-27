@@ -1,3 +1,6 @@
+*{
+    padding: 2px;
+}
 .topbar{
     padding: 20px;
     justify-content: space-between;
@@ -18,5 +21,5 @@
 
 .rec-head{
     text-align: center;
-    margin-top: 20px;
+    padding-top: 10px;
 }

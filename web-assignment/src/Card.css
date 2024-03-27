@@ -1,14 +1,39 @@
 .card-display{
-    grid-row: inherit;
+    /* grid-row: inherit;
     padding: 2rem;
     border-radius: 10px;
     display: flex;
     flex-flow: wrap row;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: column; */
+    display:flex;
+    grid-template-columns: 10rem 1fr;
+    grid-column-gap: 1rem;
+    grid-template-areas:
+      "sidebar main"
+    ;
+      max-width: 40rem;
+    
+    margin: 10rem auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: first baseline;
+    
 }
 
-Card{
+
+.cards{
+    width: 21rem;
+    padding: 10px;
+    justify-content: space-between;
+    grid-area: main;
+    position: relative;
+
+}
+
+/* :root{
     grid-row: inherit;
     padding: 2rem;
     border-radius: 10px;
@@ -16,4 +41,4 @@ Card{
     flex-flow: wrap row;
     justify-content: space-between;
     flex-direction: column;
-}
+} */

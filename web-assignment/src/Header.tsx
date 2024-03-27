@@ -9,7 +9,7 @@ import "./Header.css";
 
 function BasicExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar sticky="top" expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">
           <img src={Logo} className="logo" alt="logo" />
