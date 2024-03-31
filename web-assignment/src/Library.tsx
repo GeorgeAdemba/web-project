@@ -1,11 +1,12 @@
 import Component from "./Library[FUNC]";
 import "./App.css";
 import { Row } from "react-bootstrap";
+import Header from "./Header";
 
 function Library() {
   return (
     <>
-      <div>App</div>
+      <Header />
       <Row xs={2} md={3} className="g-4">
         <div className="recommendations">
           <div className="recommendations">
