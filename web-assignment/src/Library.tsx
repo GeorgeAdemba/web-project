@@ -8,7 +8,7 @@ function Library() {
     <>
       <Header />
       <Row xs={2} md={3} className="g-4">
-        <div className="recommendations">
+        <div className="recommendations-group">
           <div className="recommendations">
             <Component
               bookImage="https://m.media-amazon.com/images/I/810t2nP7GDL._SL1500_.jpg"
