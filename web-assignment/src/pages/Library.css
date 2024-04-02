@@ -1,0 +1,30 @@
+.rec-background{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding: 0px;
+    margin: 0px;
+}
+
+.recommendations-group{
+    display: inline-grid;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: first baseline;
+    margin: 2px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.recommendations{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1px;
+    padding: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+

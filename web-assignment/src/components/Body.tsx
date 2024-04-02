@@ -7,7 +7,7 @@ function Body() {
       <h4 className="rec-head">Recommendations</h4>
       <div className="recommendations">
         <span>
-          <Card />          
+          <Card />
         </span>
       </div>
       <p>Hellooo</p>

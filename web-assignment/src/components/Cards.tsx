@@ -175,34 +175,3 @@ function Cards() {
 }
 
 export default Cards;
-
-// import Card from "react-bootstrap/Card";
-// import Col from "react-bootstrap/Col";
-// import Row from "react-bootstrap/Row";
-
-// function GridExample() {
-//   return (
-//     <Row xs={2} md={3} className="g-4">
-//       {Array.from({ length: 12 }).map((_, idx) => (
-//         <Col key={idx}>
-//           <Card>
-//             <Card.Img
-//               variant="top"
-//               src="https://m.media-amazon.com/images/I/810t2nP7GDL._SL1500_.jpg"
-//             />
-//             <Card.Body>
-//               <Card.Title>Card title</Card.Title>
-//               <Card.Text>
-//                 This is a longer card with supporting text below as a natural
-//                 lead-in to additional content. This content is a little bit
-//                 longer.
-//               </Card.Text>
-//             </Card.Body>
-//           </Card>
-//         </Col>
-//       ))}
-//     </Row>
-//   );
-// }
-
-// export default GridExample;

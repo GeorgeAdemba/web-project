@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
-import "./Card.css";
 import Row from "react-bootstrap/Row";
 
 function Component(props: {

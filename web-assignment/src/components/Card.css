@@ -1,11 +1,11 @@
-.card-display{
-    /* grid-row: inherit;
+/* .card-display{
+    grid-row: inherit;
     padding: 2rem;
     border-radius: 10px;
     display: flex;
     flex-flow: wrap row;
     justify-content: space-between;
-    flex-direction: column; */
+    flex-direction: column;
     display:flex;
     grid-template-columns: 10rem 1fr;
     grid-column-gap: 1rem;
@@ -31,7 +31,7 @@
     grid-area: main;
     position: relative;
 
-}
+} */
 
 /* :root{
     grid-row: inherit;
@@ -42,3 +42,9 @@
     justify-content: space-between;
     flex-direction: column;
 } */
+
+.card-display{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
