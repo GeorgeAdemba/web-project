@@ -42,7 +42,7 @@ function Component(props: {
     | undefined;
 }) {
   return (
-    <div className="card-display">
+    <div className="card-deck">
       <Row xs={2} md={3} className="g-4">
         <div className="card-display">
           <Card className="cards"></Card>

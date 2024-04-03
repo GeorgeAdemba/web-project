@@ -1,4 +1,5 @@
 import Component from "../components/Library[FUNC]";
+import "react-bootstrap/Card";
 
 // import { Row } from "react-bootstrap";
 import Header from "../components/Header";

@@ -48,3 +48,7 @@
   display: flex;
   justify-content: space-between;
 }
+
+.card-image{
+  max-width: 10px;
+}
