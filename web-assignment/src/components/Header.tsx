@@ -40,8 +40,7 @@ function Header() {
               <Button href="/Library" variant="outline-success">Search</Button>
             </Form>
           </Nav>
-          <Button id="account">Account</Button>
-          <PersonOutlineIcon fontSize="large" />
+          <Button href="/Account" ><PersonOutlineIcon fontSize="large" /></Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>
