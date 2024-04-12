@@ -9,7 +9,8 @@ function Cards() {
       <Row xs={2} md={3} className="g-4">
         <div className="card-display">
           <Card className="cards">
-            <Card.Img className="card-img"
+            <Card.Img
+              className="card-img"
               variant="top"
               src="https://m.media-amazon.com/images/I/810t2nP7GDL._SL1500_.jpg"
             />
@@ -33,7 +34,8 @@ function Cards() {
 
         <div className="card-display">
           <Card className="cards">
-            <Card.Img className="card-img"
+            <Card.Img
+              className="card-img"
               variant="top"
               src="https://m.media-amazon.com/images/I/712ITBOaNbL._SL1360_.jpg"
             />
@@ -61,7 +63,8 @@ function Cards() {
 
         <div className="card-display">
           <Card className="cards">
-            <Card.Img className="card-img"
+            <Card.Img
+              className="card-img"
               variant="top"
               src="https://m.media-amazon.com/images/I/61+JUDlVVLL._SL1000_.jpg"
             />
@@ -91,7 +94,8 @@ function Cards() {
         </div>
         <div className="card-display">
           <Card className="cards">
-            <Card.Img className="card-img"
+            <Card.Img
+              className="card-img"
               variant="top"
               src="https://m.media-amazon.com/images/I/61+JUDlVVLL._SL1000_.jpg"
             />
@@ -121,7 +125,8 @@ function Cards() {
         </div>
         <div className="card-display">
           <Card className="cards">
-            <Card.Img className="card-img"
+            <Card.Img
+              className="card-img"
               variant="top"
               src="https://m.media-amazon.com/images/I/810t2nP7GDL._SL1500_.jpg"
             />
@@ -144,7 +149,8 @@ function Cards() {
         </div>
         <div className="card-display">
           <Card className="cards">
-            <Card.Img className="card-img"
+            <Card.Img
+              className="card-img"
               variant="top"
               src="https://m.media-amazon.com/images/I/712ITBOaNbL._SL1360_.jpg"
             />

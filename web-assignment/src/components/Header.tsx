@@ -37,10 +37,14 @@ function Header() {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button href="/Library" variant="outline-success">Search</Button>
+              <Button href="#" variant="outline-success">
+                Search
+              </Button>
             </Form>
           </Nav>
-          <Button href="/Account" ><PersonOutlineIcon fontSize="large" /></Button>
+          <Button className="accountbutton" href="/Account">
+            <PersonOutlineIcon fontSize="large" />
+          </Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -47,8 +47,20 @@
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  box-shadow: 5px;
+
 }
 
 .card-image{
   max-width: 10px;
+}
+
+.card-display:hover{
+  transform: translateY(-19px);
+  transition: all 0.5s ease-in-out;
+
+}
+
+.cards{
+  width: 300px;
 }

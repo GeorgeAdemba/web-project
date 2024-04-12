@@ -11,3 +11,8 @@
     float: left;
     margin-right: 30px;
 }
+
+.accountbutton:hover{
+    transform: translateY(-5px);
+    transition: all 0.5s ease-in-out;
+}

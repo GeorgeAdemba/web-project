@@ -1,0 +1,27 @@
+.account-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+
+.button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button-text {
+    margin-top: 5px;
+  }
+
+  .actualbutton{
+    padding: 30px;
+    width: 300px;
+  }
+
+  .actualbutton:hover{
+    transform: translateY(-5px);
+    transition: all 0.5s ease-in-out;
+  }
