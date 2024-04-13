@@ -7,21 +7,27 @@ import Form from "react-bootstrap/Form";
 import Logo from "../assets/Logo.png";
 import "./Header.css";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 function Header() {
   return (
     <Navbar sticky="top" expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="/Home">
+      <Container className="con">
+        <Navbar.Brand className="brand" href="/Home">
           <img src={Logo} className="logo" alt="logo" />
           Books of East Africa
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/Home">Home</Nav.Link>
-            {/* <Nav.Link href="#link">Link</Nav.Link> */}
-            <NavDropdown title="Search by..." id="basic-nav-dropdown">
+            <Nav.Link href="/Home" className="homeword">
+              Home
+            </Nav.Link>
+            <NavDropdown
+              title="Search by..."
+              id="basic-nav-dropdown"
+              className="searchby"
+            >
               <NavDropdown.Item href="/Library">Genre</NavDropdown.Item>
               <NavDropdown.Item href="/Library">Author</NavDropdown.Item>
               <NavDropdown.Item href="/Library">Price</NavDropdown.Item>
@@ -42,7 +48,16 @@ function Header() {
               </Button>
             </Form>
           </Nav>
-          <Button className="accountbutton" href="/Account">
+
+          <Button className="cartbutton" href="/Cart">
+            <ShoppingCartIcon fontSize="large" />
+          </Button>
+
+          <Button
+            className="accountbutton"
+            href="/Account"
+            style={{ backgroundColor: "green", borderColor: "green" }}
+          >
             <PersonOutlineIcon fontSize="large" />
           </Button>
         </Navbar.Collapse>

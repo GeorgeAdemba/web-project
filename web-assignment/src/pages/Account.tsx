@@ -15,7 +15,12 @@ function Account() {
           <Button
             href="/User"
             size="lg"
-            style={{ width: "100%", height: "100%" }}
+            style={{
+              width: "100%",
+              height: "100%",
+              backgroundColor: "green",
+              borderColor: "green",
+            }}
           >
             <div className="button-content">
               <PersonOutlineIcon fontSize="large" />
@@ -27,7 +32,12 @@ function Account() {
           <Button
             href="/Staff"
             size="lg"
-            style={{ width: "100%", height: "100%", backgroundColor: "gray" }}
+            style={{
+              width: "100%",
+              height: "100%",
+              backgroundColor: "gray",
+              borderColor: "gray",
+            }}
           >
             <div className="button-content">
               <PersonOutlineIcon fontSize="large" />

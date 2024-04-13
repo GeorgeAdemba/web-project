@@ -64,3 +64,12 @@
 .cards{
   width: 300px;
 }
+
+.bottom-card-icons{
+  align-items: baseline;
+}
+
+.price{
+  margin-right: 0px;
+  padding-right: 0px;
+}

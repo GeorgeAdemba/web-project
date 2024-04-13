@@ -3,6 +3,8 @@ import ListGroup from "react-bootstrap/ListGroup";
 import "../components/Card.css";
 import Row from "react-bootstrap/Row";
 import Header from "../components/Header";
+import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
+import RemoveShoppingCartIcon from "@mui/icons-material/RemoveShoppingCart";
 
 function Library() {
   return (
@@ -30,9 +32,17 @@ function Library() {
               <ListGroup.Item>Author: Aloo Osoti Mojola</ListGroup.Item>
               <ListGroup.Item>Genre: History</ListGroup.Item>
             </ListGroup>
-            <Card.Body>
-              <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+            <Card.Body className="bottom-card-icons">
+              <div style={{ float: "inherit" }}>
+                {" "}
+                <Card.Link href="#" style={{ float: "left" }}>
+                  <RemoveShoppingCartIcon />
+                </Card.Link>
+                UGX 60,000
+                <Card.Link href="#" style={{ float: "right" }}>
+                  <AddShoppingCartIcon />
+                </Card.Link>
+              </div>
             </Card.Body>
           </Card>
         </div>
@@ -59,9 +69,17 @@ function Library() {
               <ListGroup.Item>Author: Snehangshu Shekhar Chanda</ListGroup.Item>
               <ListGroup.Item>Genre: Study</ListGroup.Item>
             </ListGroup>
-            <Card.Body>
-              <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+            <Card.Body className="bottom-card-icons">
+              <div style={{ float: "inherit" }}>
+                {" "}
+                <Card.Link href="#" style={{ float: "left" }}>
+                  <RemoveShoppingCartIcon />
+                </Card.Link>
+                UGX 60,000
+                <Card.Link href="#" style={{ float: "right" }}>
+                  <AddShoppingCartIcon />
+                </Card.Link>
+              </div>
             </Card.Body>
           </Card>
         </div>
@@ -91,9 +109,17 @@ function Library() {
               <ListGroup.Item>Author: Daren E. Ray</ListGroup.Item>
               <ListGroup.Item>Genre: Study</ListGroup.Item>
             </ListGroup>
-            <Card.Body>
-              <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+            <Card.Body className="bottom-card-icons">
+              <div style={{ float: "inherit" }}>
+                {" "}
+                <Card.Link href="#" style={{ float: "left" }}>
+                  <RemoveShoppingCartIcon />
+                </Card.Link>
+                UGX 60,000
+                <Card.Link href="#" style={{ float: "right" }}>
+                  <AddShoppingCartIcon />
+                </Card.Link>
+              </div>
             </Card.Body>
           </Card>
         </div>
@@ -129,9 +155,17 @@ function Library() {
               <ListGroup.Item>Author: Daren E. Ray</ListGroup.Item>
               <ListGroup.Item>Genre: Study</ListGroup.Item>
             </ListGroup>
-            <Card.Body>
-              <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+            <Card.Body className="bottom-card-icons">
+              <div style={{ float: "inherit" }}>
+                {" "}
+                <Card.Link href="#" style={{ float: "left" }}>
+                  <RemoveShoppingCartIcon />
+                </Card.Link>
+                UGX 60,000
+                <Card.Link href="#" style={{ float: "right" }}>
+                  <AddShoppingCartIcon />
+                </Card.Link>
+              </div>
             </Card.Body>
           </Card>
         </div>
@@ -153,9 +187,17 @@ function Library() {
               <ListGroup.Item>Author: Aloo Osoti Mojola</ListGroup.Item>
               <ListGroup.Item>Genre: History</ListGroup.Item>
             </ListGroup>
-            <Card.Body>
-              <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+            <Card.Body className="bottom-card-icons">
+              <div style={{ float: "inherit" }}>
+                {" "}
+                <Card.Link href="#" style={{ float: "left" }}>
+                  <RemoveShoppingCartIcon />
+                </Card.Link>
+                UGX 60,000
+                <Card.Link href="#" style={{ float: "right" }}>
+                  <AddShoppingCartIcon />
+                </Card.Link>
+              </div>
             </Card.Body>
           </Card>
         </div>
@@ -181,9 +223,17 @@ function Library() {
               <ListGroup.Item>Author: Snehangshu Shekhar Chanda</ListGroup.Item>
               <ListGroup.Item>Genre: Study</ListGroup.Item>
             </ListGroup>
-            <Card.Body>
-              <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+            <Card.Body className="bottom-card-icons">
+              <div style={{ float: "inherit" }}>
+                {" "}
+                <Card.Link href="#" style={{ float: "left" }}>
+                  <RemoveShoppingCartIcon />
+                </Card.Link>
+                UGX 60,000
+                <Card.Link href="#" style={{ float: "right" }}>
+                  <AddShoppingCartIcon />
+                </Card.Link>
+              </div>
             </Card.Body>
           </Card>
         </div>

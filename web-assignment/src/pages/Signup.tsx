@@ -1,7 +1,8 @@
 import Form from "react-bootstrap/Form";
 import "./User.css";
 import Header from "../components/Header";
-const User = () => {
+
+const Signup = () => {
   return (
     <>
       <Header />
@@ -18,7 +19,19 @@ const User = () => {
           }}
         >
           <div className="mb-3">
-            <h3>Log In</h3>
+            <h3>Sign Up</h3>
+
+            <div className="mb-3">
+            <label htmlFor="exampleInputUsername" className="form-label">
+              Username
+            </label>
+            <input
+              type="password"
+              className="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+
             <label htmlFor="exampleInputEmail1" className="form-label">
               Email address
             </label>
@@ -46,6 +59,17 @@ const User = () => {
               id="exampleInputPassword1"
             />
           </div>
+
+          <div className="mb-3">
+            <label htmlFor="exampleInputPassword2" className="form-label">
+              Confirm Password
+            </label>
+            <input
+              type="password"
+              className="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
           <div className="mb-3 form-check">
             <input
               type="checkbox"
@@ -56,9 +80,7 @@ const User = () => {
               Remember Me
             </label>
             <div>
-              <a href="/Signup" className="a" style={{ color: "white", }}>
-                Don't have an Account? Signup
-              </a>
+              <a href="/User" className="a" style={{color:"white"}}>Already have an account? Login</a>
             </div>
           </div>
           <button type="submit" className="btn btn-primary">
@@ -70,4 +92,4 @@ const User = () => {
   );
 };
 
-export default User;
+export default Signup;

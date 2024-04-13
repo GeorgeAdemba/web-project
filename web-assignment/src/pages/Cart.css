@@ -1,0 +1,20 @@
+.headings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.cart{
+    padding: 30px;
+}
+
+.remove{
+    display: flex;
+    float: left;
+}
+
+.cartdetails{
+    padding: 10px;
+}
