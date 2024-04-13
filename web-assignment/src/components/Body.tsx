@@ -10,7 +10,6 @@ function Body() {
           <Card />
         </span>
       </div>
-      <p>Hellooo</p>
     </>
   );
 }
